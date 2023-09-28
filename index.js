@@ -4,7 +4,7 @@ const {userRouter}=require("./routes/user.routes")
 const {employeeRouter}=require("./routes/employee.routes")
 require("dotenv").config()
 const cors = require("cors")
-
+//abc
 const app = express()
 app.use(cors())
 app.use(express.json())
